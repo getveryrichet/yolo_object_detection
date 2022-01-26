@@ -1,5 +1,11 @@
 # How to run
 
+download required files
+
+```
+make download
+```
+
 ## Docker version
 
 1. install docker
