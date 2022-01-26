@@ -16,9 +16,9 @@ download:
 	docker run -v $(CURDIR):/home/richet -w /home/richet object-detection gdown https://drive.google.com/uc\?id\=1Un2S6rr7K-iKBNtOhOTSe8uKOQvs48wt
 	unzip data.zip
 
-	rm checkpoints.zip || true
-	rm data.zip || true
+	sudo rm -f checkpoints.zip || true
+	sudo rm -f data.zip || true
+
 conda.build.env:
 	conda env remove --name yolo_python || true 
 	conda env create --file environment.yml
-	conda activate yolo_python 
