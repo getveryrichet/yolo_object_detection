@@ -45,7 +45,7 @@ python detect_simple.py ./data/kite.jpg kite_observed.jpg
 
 ```
 #python detect_simple.py {video dir} {output-file-name}
-python detect_video_simple.py data/road.mp4 road_detected.mp4
+python detect_video_simple.py ./data/road.mp4 road_detected.mp4
 ```
 
 # Note for me
